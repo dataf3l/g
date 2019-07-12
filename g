@@ -3,8 +3,10 @@
 
 # This file will check before adding on git, use as you would
 # normally use git.
-# Apologies for using bash, I guess I guess we can add
-# more languages in the futurewith care.
+# Apologies for using bash,it's the only runtime I think
+# is most likely to be installed in all the languages.
+
+# more languages in the future
 
 do_add() {
     for file in "$PARAMS"
