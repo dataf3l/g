@@ -22,6 +22,11 @@ do_add() {
             gofmt -e $file > /dev/null && git $CMD $file
             printf "$(tput sgr0)"
             ;;
+	  *.php ) 
+            printf "$(tput setaf 1)"
+            php -l $file && git $CMD $file
+            printf "$(tput sgr0)"
+            ;;
           * )
             echo "$(tput setaf 1)Unchecked$(tput sgr0)"
             git $CMD $file
