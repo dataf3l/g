@@ -7,7 +7,7 @@ Use instead of git.
 ```
     g add file
     g add .
-    g commit -m "message
+    g commit -m "message"
     g push origin branch-name
     g log
 ```
