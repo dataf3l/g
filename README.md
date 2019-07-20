@@ -19,7 +19,8 @@ it to the repo, if the file has bad syntax, it will not be added to the repo.
 
 ## Supported Languages
 
-- Javascript
+- Javascript (via node)
+- Go (via gofmt)
 
 ## Upcoming
 
