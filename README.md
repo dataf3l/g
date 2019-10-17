@@ -14,7 +14,8 @@ Use instead of git.
 
 ## Demo
 
-[![asciicast](https://asciinema.org/a/1unh1fJqSlDASrg6RE5ECle70.svg)](https://asciinema.org/a/1unh1fJqSlDASrg6RE5ECle70)
+[![asciicast](https://asciinema.org/a/C94rH7rhQUS44r97PlUKjf2qg.svg)](https://asciinema.org/a/C94rH7rhQUS44r97PlUKjf2qg)
+
 
 You can also alias git to g, so that it's easy.
 
