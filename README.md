@@ -75,4 +75,6 @@ Support comes from external linkers, we are merely a "linker curator" package.
 - CSS, HTML, XML, JAVA, C++, and any which the community is interested in, feel free to post an issue here requesting
 your favourite language: (https://github.com/dataf3l/g/issues).
 
+## Contributing
 
+Just send me a pull request, contributions are accepted and encouraged
