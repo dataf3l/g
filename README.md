@@ -2,6 +2,45 @@
 
 Use instead of git.
 
+## Installation:
+
+### Using git:
+
+```
+    $ git clone https://github.com/dataf3l/g
+    
+    # add this line to your .bashrc which adds the g folder to your PATH for your convenience
+
+    $ export PATH=$PATH:/home/<your-user-name>/place/where/you/cloned/g/
+
+    
+```
+
+### Using npm:
+
+```
+    $ npm install @dataf3l/g
+    
+    # add this line to your .bashrc which adds the g folder to your PATH for your convenience
+
+    $ export PATH=$PATH:~/node_modules/@dataf3l/g/
+
+    
+```
+# Example .bashrc:
+
+```
+    export PATH=$PATH:/s/ntutree/g/
+    alias git=g
+
+```
+
+The reason it was aliased, is because my fingers are used to typing git, when
+I mean to type g, and I don't want my finger memory to accidentally cause the files
+in the server to be ont validated.
+
+However, you may choose differently.
+
 ## Usage:
 
 ```
@@ -29,14 +68,11 @@ it to the repo, if the file has bad syntax, it will not be added to the repo.
 - Javascript (via node)
 - Go (via gofmt)
 
+Support comes from external linkers, we are merely a "linker curator" package.
+
 ## Upcoming
 
-- Maybe CSS, php, etc.
-
-## Installation:
-
-put it on a file in your machine and later ad this line to bashrc:
-
-export PATH=$PATH:/place/where/you/put/the/command
+- CSS, HTML, XML, JAVA, C++, and any which the community is interested in, feel free to post an issue here requesting
+your favourite language: (https://github.com/dataf3l/g/issues).
 
 

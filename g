@@ -12,23 +12,23 @@ do_add() {
     for file in "$PARAMS"
     do
         case $file in 
-	  *.js ) 
+          *.js ) 
             printf "$(tput setaf 1)"
             node --check $file && git $CMD $file
             printf "$(tput sgr0)"
             ;;
-	  *.go ) 
+          *.go ) 
             printf "$(tput setaf 1)"
             gofmt -e $file > /dev/null && git $CMD $file
             printf "$(tput sgr0)"
             ;;
-	  *.php ) 
+          *.php ) 
             printf "$(tput setaf 1)"
             php -l $file && git $CMD $file
             printf "$(tput sgr0)"
             ;;
           * )
-            echo "$(tput setaf 1)Unchecked$(tput sgr0)"
+            echo "$(tput setaf 3)Warning, file extension is Unchecked, please add a checker to g (https://github.com/dataf3l/g), with your help, we can have a world where nothing is Unchecked.$(tput sgr0)"
             git $CMD $file
         esac
     done
