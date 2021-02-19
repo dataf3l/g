@@ -67,6 +67,7 @@ it to the repo, if the file has bad syntax, it will not be added to the repo.
 
 - Javascript (via node)
 - Go (via gofmt)
+- Rust (via rustfmt)
 
 Support comes from external linkers, we are merely a "linker curator" package.
 
