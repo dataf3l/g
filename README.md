@@ -8,24 +8,24 @@ Use instead of git.
 
 ```
     $ git clone https://github.com/dataf3l/g
-    
+
     # add this line to your .bashrc which adds the g folder to your PATH for your convenience
 
     $ export PATH=$PATH:/home/<your-user-name>/place/where/you/cloned/g/
 
-    
+
 ```
 
 ### Using npm:
 
 ```
     $ npm install @dataf3l/g
-    
+
     # add this line to your .bashrc which adds the g folder to your PATH for your convenience
 
     $ export PATH=$PATH:~/node_modules/@dataf3l/g/
 
-    
+
 ```
 # Example .bashrc:
 
@@ -65,14 +65,22 @@ it to the repo, if the file has bad syntax, it will not be added to the repo.
 
 ## Supported Languages
 
-- Javascript (via node)
 - Go (via gofmt)
+- Go (via gofmt)
+- Java (via javac)
+- Javascript (via node)
+- Json (via python)
+- Perl (via perl)
+- Php (via php)
+- Ruby (via ruby)
+- Xml (via python)
+- Yaml (via python)
 
 Support comes from external linkers, we are merely a "linker curator" package.
 
 ## Upcoming
 
-- CSS, HTML, XML, JAVA, C++, and any which the community is interested in, feel free to post an issue here requesting
+- CSS, HTML, C++, and any which the community is interested in, feel free to post an issue here requesting
 your favourite language: (https://github.com/dataf3l/g/issues).
 
 ## Contributing
